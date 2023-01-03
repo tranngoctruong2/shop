@@ -38,20 +38,16 @@ const CartProvider = ({children})=> {
     }
     const clearCart = ()=> setCart([])
     const congCart =(id)=>{
-        if(cart.id>2){
+    
             const newCart =[...cart].map((item)=>{
-                if(item.id===id&&item.amount>2){
+                if(item.id===id){
                     return{...item,amount:item.amount+1}
               
                 }else{
                     return item
                 }
                 })
-                setCart(newCart);
-        }else{
-            remoCart(id)
-        }
-   
+                setCart(newCart) 
     }
    
       
