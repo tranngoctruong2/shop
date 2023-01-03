@@ -13,7 +13,7 @@ const Productpage = () => {
     const {image,title,description,price}=newProduct
   
     return ( <div>
-            <div className="w-full md:h-screen p-8 flex flex-col justify-center items-center md:flex-row">
+            <div className="w-full md:h-screen pt-32 pb-12 lg:py-32 flex flex-col justify-center items-center md:flex-row">
                    
                 <img src={image} className="object-cover max-w-[110px] md:max-w-[280px]" alt="" />
                 
