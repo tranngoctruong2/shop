@@ -15,7 +15,7 @@ const Productpage = () => {
     return ( <div>
             <div className="w-full md:h-screen p-8 flex flex-col justify-center items-center md:flex-row">
                    
-                <img src={image} className="object-cover max-w-[150px] md:max-w-[280px]" alt="" />
+                <img src={image} className="object-cover max-w-[110px] md:max-w-[280px]" alt="" />
                 
                 <div className=" flex justify-center items-center flex-col ">
                     <p className="font-medium text-blue-300 text-sm underline">
